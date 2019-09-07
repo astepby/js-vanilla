@@ -27,7 +27,7 @@ function print4(person) {
 }
 
 const person = {
-  name: "Terry"
+  name: 'Terry'
 };
 
 print(person);
@@ -39,13 +39,13 @@ print4(null);
 console.log(!undefined);
 console.log(!null);
 console.log(!0);
-console.log(!"");
+console.log(!'');
 console.log(!NaN);
-console.log(!(1 / "asdf"));
+console.log(!(1 / 'asdf'));
 
 //truthy는 나머지
 console.log(!1);
-console.log(!"hello");
+console.log(!'hello');
 console.log(![]);
 console.log(!{});
 console.log(![1, 2, 3]);
@@ -54,7 +54,7 @@ let value = { p: 1 };
 value = null;
 //value가 존재하면
 if (value) {
-  console.log("value는 Truthy합니다..");
+  console.log('value는 Truthy합니다..');
 }
 
 value = {};
@@ -64,5 +64,3 @@ console.log(status);
 //삼항연산자 필요없음. Truthy인지 Falsy인지 뽑아내는 방법
 status = !!value;
 console.log(status);
-
-
