@@ -21,11 +21,11 @@ let name = "이름";
 console.log(text + name);
 
 //불리언선언
-let truethy = true;
-let falsely = false;
+let truthy = true;
+let falsy = false;
 let nully = null; //존재하지 않음
 let undefinny = undefined; //아직 정해지지 않음
-console.log(truethy);
-console.log(falsely);
+console.log(truthy);
+console.log(falsy);
 console.log(nully);
 console.log(undefinny);
